@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>head}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fulid main_header">
+      <div class="row">
+        <div class="col-md-10 mx-auto col-12">
+          <div class="row">
+            <!-- left side div -->
+            <div class="col-md-6 col-12 main_header_left mx-auto">
+              <figure>
+                <img
+                  src="./images/Page404.jpg"
+                  alt="Page Not Found"
+                  class="image-fluid"
+                  title="RohiKadiyan"
+                  style="height: 27rem;"
+                />
+              </figure>
+              <h1>{{ErrorMsg}}</h1>
+              <a href="/"><button>Go Back </button></a>
+            </div>
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main header End -->
+    <!-- footer -->
+  {{>footer}}
+    <!-- footer -End -->
+  </body>
+</html>
